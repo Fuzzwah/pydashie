@@ -21,4 +21,4 @@ class Dashing.Image extends Dashing.Widget
       else
         ratio = @get('image_height') / @get('image_width')
         img.height(img.parent().height() * ratio/paRatio)
-      $(@node).fadeIn()    
+      $(@node).fadeIn()
